@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/pb_empty" /><!--背景图-->
+    </item>
+    <item>
+        <clip
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/pb_full"
+            android:gravity="top" /><!--可以在任何方向开始裁切展示 如 left center right 开始;  progress图-->
+    </item>
+</layer-list>
